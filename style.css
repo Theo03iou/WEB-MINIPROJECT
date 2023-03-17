@@ -36,7 +36,6 @@ body {
 header {
     grid-area: header;
     background-color: rgb(226, 224, 224);
-
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -52,15 +51,23 @@ header p {
 }
 
 header a {
-    display: inline-flex;
+    /* box-shadow: 10px 5px 5px rgb(176, 176, 176); */
+
+    /* display: inline-flex; */
     margin: 0 2.5rem;
     text-decoration: none;
     color: rgb(69, 62, 62);
+    transition: all 150ms ease-in-out;
+    padding: .3rem;
+    border-radius: 10%;
 }
 
 nav :hover {
     font-weight:900;
     color: rgb(255, 255, 255);
+    text-shadow: 10px 5px 5px rgb(176, 176, 176);
+    letter-spacing: .1rem;
+
 }
 
 header a:nth-last-child(1) {
@@ -90,13 +97,18 @@ header a:nth-last-child(1) {
     margin-top: 20rem;
     width: 40%;
     margin: auto;
+    
 }
 
 .TheoImage .TheoWrapper img{
     width: 20rem;
     border-radius: 1%;
     margin-bottom: 4rem;
+    box-shadow: 7px 5px 5px rgb(59, 59, 59);
 }
+
+
+
 
 /* END ON INTRO */
 
