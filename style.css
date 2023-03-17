@@ -20,7 +20,7 @@ body {
 
 .wrapper1 {
     grid-area: wrapper1;
-    background-color: rgb(226, 224, 224);
+    background-color: #F2EEEB;
 }
 
 .wrapper2 {
@@ -35,7 +35,8 @@ body {
 
 header {
     grid-area: header;
-    background-color: #F2EEEB;
+    background-color: rgb(226, 224, 224);
+
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -79,19 +80,38 @@ header a:nth-last-child(1) {
     margin-top: 1rem;
 }
 
-
 .TheoImage {
     margin-top: 20rem;
     width: 40%;
     margin: auto;
 }
 
-
 .TheoImage .TheoWrapper img{
     width: 20rem;
     border-radius: 1%;
     margin-bottom: 4rem;
 }
+
+/* END ON INTRO */
+
+/* START OF LEFT SIDE SKILLS */
+
+.wrapper1 .skillsWrapper > p {
+    width: 10%;
+    margin: 5rem auto 1.3rem;
+    font-size: 2rem;
+}
+
+.wrapper1 .skills1 :nth-child(odd){
+    margin: 2rem 8rem;
+}
+
+.wrapper1 .skills1 :nth-child(even){
+    margin: 2rem 0 1rem 20rem;
+}
+
+
+/* START OF FOOTER */
 
 footer {
     padding: 5%;
@@ -106,3 +126,5 @@ footer {
     grid-area: footer2;
     background-color: #BFA48E;
 }
+
+/* END OF FOOTER */
