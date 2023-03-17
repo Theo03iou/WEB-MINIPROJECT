@@ -9,18 +9,27 @@ body {
     grid-template-areas: 
         'header header '
         'wrapper1 wrapper2'
-        'wrapper1 wrapper2'
-        'wrapper1 wrapper2'
-        'wrapper1 wrapper2'
-        'wrapper1 wrapper2'
-        'wrapper1 wrapper2'
-        'wrapper1 wrapper2'
-        
         'footer1 footer2 ';
     grid-template-columns: 1fr 1fr;
     color: black;   
     font-family: 'Work Sans', sans-serif;
 }
+
+
+/* START OF DEFINING THE GRID */
+
+.wrapper1 {
+    grid-area: wrapper1;
+    background-color: rgb(226, 224, 224);
+}
+
+.wrapper2 {
+    grid-area: wrapper2;
+    background-color: #d2b49c;
+    max-height: 100%;
+}
+
+/* END OF DEFINING THE GRID */
 
 /* START OF HEADER */
 
@@ -54,18 +63,7 @@ header a:nth-last-child(1) {
 
 /* END OF HEADER */
 
-.wrapper1 {
-    grid-area: wrapper1;
-    background-color: white;
-}
-
-.wrapper2 {
-    grid-area: wrapper2;
-    background-color: #d2b49c;
-    max-height: 100%;
-}
-
-
+/* START OF RIGHT SIDE INTRO */
 
 .introWrapper {
     width: 50%;
@@ -73,7 +71,7 @@ header a:nth-last-child(1) {
 }
 
 .introWrapper p {
-    /* text-decoration: underline; */
+    font-size: 2rem;    
 }
 
 .introWrapper ul {
@@ -92,9 +90,12 @@ header a:nth-last-child(1) {
 .TheoImage .TheoWrapper img{
     width: 20rem;
     border-radius: 1%;
+    margin-bottom: 4rem;
 }
 
-footer {}
+footer {
+    padding: 5%;
+}
 
 .footer1 {
     grid-area: footer1;
