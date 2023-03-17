@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
 /* START OF HEADER */
 
 header {
@@ -47,3 +51,36 @@ header a:nth-last-child(1) {
 }
 
 /* END OF HEADER */
+
+
+.blogDiv {
+    text-align: center;
+    margin: -1rem 3rem;
+    background-color: #d2b49c;
+    width: 30%;
+    height: 10rem;
+    border-radius: 1%;
+    border: solid #8a7767 1.5px;
+    transition: all 80ms;
+    
+    /* #9cb1d2 */
+}
+
+.blogDiv h2 {
+    margin: 3rem;
+}
+
+.blogDiv:first-of-type {
+    margin-top: 3rem;
+
+}
+
+.blogDiv:nth-child(odd) {
+    background-color: #9cb1d2;
+
+}
+
+.blogDiv:hover {
+    box-shadow: 15px 15px 5px rgb(176, 176, 176);
+    margin: 3rem 3rem;
+}
