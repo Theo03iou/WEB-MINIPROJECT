@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: grid;
+    grid-template-areas: 
+        'header header '
+        'wrapper1 wrapper2'
+        'wrapper1 wrapper2'
+        'wrapper1 wrapper2'
+        'wrapper1 wrapper2'
+        'wrapper1 wrapper2'
+        'wrapper1 wrapper2'
+        'wrapper1 wrapper2'
+        
+        'footer1 footer2 ';
+    grid-template-columns: 1fr 1fr;
+    color: black;   
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* START OF HEADER */
+
+header {
+    grid-area: header;
+    background-color: #F2EEEB;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    width: 100%;
+    margin-top: 0;
+    padding: 2rem 0;
+    
+}
+
+header p {
+    margin: 0 2.5rem;
+}
+
+header a {
+    display: inline-flex;
+    margin: 0 2.5rem;
+    text-decoration: none;
+    color: rgb(69, 62, 62);
+}
+
+header a:nth-last-child(1) {
+    margin-right: 5rem;
+}
+
+/* END OF HEADER */
+
+.wrapper1 {
+    grid-area: wrapper1;
+    background-color: white;
+}
+
+.wrapper2 {
+    grid-area: wrapper2;
+    background-color: #d2b49c;
+    max-height: 100%;
+}
+
+
+
+.introWrapper {
+    width: 50%;
+    margin: 5rem 10rem 4rem;
+}
+
+.introWrapper p {
+    /* text-decoration: underline; */
+}
+
+.introWrapper ul {
+    list-style: none;
+    margin-top: 1rem;
+}
+
+
+.TheoImage {
+    margin-top: 20rem;
+    width: 40%;
+    margin: auto;
+}
+
+
+.TheoImage .TheoWrapper img{
+    width: 20rem;
+    border-radius: 1%;
+}
+
+footer {}
+
+.footer1 {
+    grid-area: footer1;
+    background-color: rgb(235, 234, 234);
+}
+
+.footer2 {
+    grid-area: footer2;
+    background-color: #BFA48E;
+}
