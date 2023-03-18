@@ -5,6 +5,7 @@
 
 body {
     font-family: 'Work Sans', sans-serif;
+    background-color: #F2EEEB;
 }
 
 /* START OF HEADER */
@@ -81,4 +82,69 @@ header a:nth-last-child(1) {
 .blogDiv:hover {
     box-shadow: 15px 15px 5px rgb(176, 176, 176);
     margin: 3rem 3rem;
+}
+
+/* END OF BLOG DIV */
+
+
+/* START OF WRITE BLOG */
+
+.postBlogDiv {
+    text-align: center;
+    margin: 4rem auto;
+    background-color: #d2b49c;
+    width: 60%;
+    height: 42rem;
+    border-radius: 1%;
+    border: solid #8a7767 1.5px;
+    transition: all 100ms ease-in-out;
+    box-shadow: 15px 15px 5px rgb(176, 176, 176);
+
+}
+
+.postBlogDiv p {
+    font-size: 2rem;
+    font-weight: bolder;
+    margin: 3rem auto 2rem auto;
+    letter-spacing: .3rem;
+    color: #2f2f2f;
+}
+
+.postBlogDiv #blogTitle {
+    padding: 1rem 30rem 1rem 1rem;
+    font-size: 1rem;
+}
+.postBlogDiv #blogText {
+    margin-top: 1rem;
+    padding: 1rem 30rem 18rem 1rem;
+    font-size: 1rem;
+}
+
+#blogTitle:focus {
+    box-shadow: 6px 6px 5px rgb(0, 0, 0);
+}
+
+#blogText:focus {
+    box-shadow: 6px 6px 5px rgb(0, 0, 0);
+}
+
+form #blogTitle, #blogText {
+    text-align: left;
+    font-size: large;
+    padding: 1rem 5rem 1rem 1rem;
+    margin: 1rem;
+    transition: all 120ms ease-in-out;
+}
+
+form button {
+    border-radius: 8%;
+    margin: .5rem 1rem;
+    padding: 1.5rem;
+    font-size: 1.3rem;
+    background-color: #F2EEEB;
+    letter-spacing: .1rem;
+}
+
+button:active {
+    background-color: #ccc9c6;
 }
