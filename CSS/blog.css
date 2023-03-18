@@ -19,7 +19,6 @@ header {
     width: 100%;
     margin-top: 0;
     padding: 2rem 0;
-    
 }
 
 header p {
@@ -43,7 +42,6 @@ nav :hover {
     color: rgb(255, 255, 255);
     text-shadow: 10px 5px 5px rgb(176, 176, 176);
     letter-spacing: .1rem;
-
 }
 
 header a:nth-last-child(1) {
