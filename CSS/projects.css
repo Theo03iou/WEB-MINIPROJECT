@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    color: black;   
+    font-family: 'Work Sans', sans-serif;
+    background-color: #F2EEEB;
+}
+
+/* START OF HEADER */
+
+header {
+    grid-area: header;
+    background-color: rgb(226, 224, 224);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    width: 100%;
+    margin-top: 0;
+    padding: 2rem 0;
+    
+}
+
+header p {
+    margin: 0 2.5rem;
+}
+
+header a {
+    margin: 0 2.5rem;
+    text-decoration: none;
+    color: rgb(69, 62, 62);
+    transition: all 150ms ease-in-out;
+    padding: .3rem;
+    border-radius: 10%;
+}
+
+nav :hover {
+    font-weight:900;
+    color: rgb(255, 255, 255);
+    text-shadow: 10px 5px 5px rgb(176, 176, 176);
+    letter-spacing: .1rem;
+}
+
+/* END OF HEADER */
+
+.projectWrapper {
+    display: flex;
+}
+
+.project {
+    /* display: inline-flex; */
+    width: 30%;
+    text-align: center;
+    margin: 6rem 3rem;
+    background-color: #d2b49c;
+    padding: 1rem 3rem 3rem 3rem;
+    transition: all 100ms ease-in-out;
+}
+
+.project > p {
+    font-size: 2rem;
+    margin: 1rem;
+}
+
+.project:hover {
+    box-shadow: 7px 5px 5px rgb(59, 59, 59);;
+}
+
+.projectLink a {
+    padding: 3rem;
+    text-decoration: none;
+}
