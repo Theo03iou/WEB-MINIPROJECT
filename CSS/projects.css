@@ -56,22 +56,32 @@ nav :hover {
     /* display: inline-flex; */
     width: 30%;
     text-align: center;
-    margin: 6rem 3rem;
+    margin: 5rem 3rem;
     background-color: #d2b49c;
     padding: 1rem 3rem 3rem 3rem;
     transition: all 100ms ease-in-out;
 }
 
+.project p {
+    font-size: 1.2rem;
+    margin: 1rem;
+}
+
 .project > p {
     font-size: 2rem;
-    margin: 1rem;
+    margin: 1rem 2rem;
 }
 
 .project:hover {
     box-shadow: 7px 5px 5px rgb(59, 59, 59);;
 }
 
-.projectLink a {
-    padding: 3rem;
+.project a {
     text-decoration: none;
+    margin: 3rem 0rem;
+}
+
+.project img {
+    margin: 2rem 0rem;
+    width: 100%;
 }
